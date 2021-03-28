@@ -1,5 +1,8 @@
-- graphql federation:
-  - https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-1-ae3557c187e2
+- netflix with federated graphql part 2
+  - https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-2-bbe71aaec44a
+
+- difference between stateful vs stateless in microservice arch
+  - https://searchapparchitecture.techtarget.com/tip/The-key-differences-between-stateless-and-stateful-microservices
 
 - netflix chooses java spring boot as base for backend echosystem
   - https://netflixtechblog.com/netflix-oss-and-spring-boot-coming-full-circle-4855947713a0

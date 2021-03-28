@@ -1,13 +1,13 @@
 #!/bin/bash
 
-cmd=${1:-summary}
+cmd=${1:-create-post}
 
 root_dir=$(cd $(dirname $0); pwd)
 
-if [ $cmd = 'summary' ]; then
+if [ $cmd = 'create-post' ]; then
   time=$(date '+%Y%m%d%H%M%S')
   filename="${time}.md"
-  touch "${root_dir}/summaries/${filename}"
-  vim "${root_dir}/summaries/${filename}"
+  touch "${root_dir}/posts/${filename}"
+  vim "${root_dir}/posts/${filename}"
 
 fi
