@@ -7,7 +7,16 @@ root_dir=$(cd $(dirname $0); pwd)
 if [ $cmd = 'create-post' ]; then
   time=$(date '+%Y%m%d%H%M%S')
   filename="${time}.md"
-  touch "${root_dir}/posts/${filename}"
+  path="${root_dir}/posts/${filename}"
+  touch "$path"
+  cat <<-EOF > "$path"
+
+
+# Summary
+
+# Thoughts
+
+EOF
   vim "${root_dir}/posts/${filename}"
 
 fi
