@@ -10,6 +10,13 @@ if [ $cmd = 'create-post' ]; then
   path="${root_dir}/posts/${filename}"
   touch "$path"
   cat <<-EOF > "$path"
+<!--
+{
+  "tags": ["grpahql"]
+}
+-->
+# title
+https://....
 
 
 # Summary
@@ -17,6 +24,6 @@ if [ $cmd = 'create-post' ]; then
 # Thoughts
 
 EOF
-  vim "${root_dir}/posts/${filename}"
+  vim "$path"
 
 fi
