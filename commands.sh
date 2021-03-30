@@ -26,4 +26,10 @@ https://....
 EOF
   vim "$path"
 
+elif [ $cmd = 'build-manifest' ]; then
+  node ./scripts/build-manifest.js
+  echo built manifest
+
+else
+  echo unknown command $cmd
 fi

@@ -8,3 +8,4 @@
     - post name
     - tag name
   - page should be opened in github, for easier opearbility on markdown
+  - utilize github action to generate manifest.json
