@@ -1,10 +1,12 @@
 # next
+## light
 - difference between stateful vs stateless in microservice arch
   - https://searchapparchitecture.techtarget.com/tip/The-key-differences-between-stateless-and-stateful-microservices
 
 - netflix chooses java spring boot as base for backend echosystem
   - https://netflixtechblog.com/netflix-oss-and-spring-boot-coming-full-circle-4855947713a0
 
+## heavy
 - nx
   - https://nx.dev/latest/react/getting-started/getting-started
   - what features does it have?
@@ -21,3 +23,6 @@
   - what does it stand for?
   - what role does it have in networking context?
   - what is DNS lookup?
+
+- what is ESB (enterprise service buses)?
+  - how is it different from other messaging bus tool?
