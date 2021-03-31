@@ -1,12 +1,9 @@
 # TIL
-- one way to strengthen your knowledge
+- one way to strengthen your knowledge (and jiatama)
 
 # Todo
 ## Current
 - [ ] add ui framework to make it look better
-  - choose one:
-    - has sidebar feature
-    - has typography support
   - make it responsive
     - mobile a okay
   - sidebar item
@@ -14,13 +11,12 @@
     - formatted timestamp
     - tags
 - [ ] add library to parse and format markdown files in content
-- [ ] integrate netlify's github repository feature
-- [ ] automate building manifest
-  - wanna see if making a commit on github action is possible
 
 ## Archive
-- [x] have index page
-  - have github pages ready
+- [x] add ui framework to make it look better
+  - choose one:
+    - has sidebar feature
+    - has typography support
 - [x] migrate over to netlify
   - github pages has some drawbacks:
     - page cannot use absolute path
@@ -30,3 +26,6 @@
     - the ones has /til/...
   - disable github pages
   - create service on netlify
+  - integrate netlify's github repository feature
+- [x] have index page
+  - have github pages ready

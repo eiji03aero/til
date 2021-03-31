@@ -4,15 +4,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>til</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="/assets/style.css" type="text/css" media="all">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
     <script src="/assets/main.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="container">
-      <aside class="container__side"></aside>
-      <main class="container__main">
-        <div class="content"></div>
-      </main>
+      <div class="container__top">
+        <nav class="top-nav">
+          <div class="top-nav__content uk-container uk-container-expand">
+            <a class="top-nav__home-link" href="#" onclick="navigateToHome()">
+              <i class="top-nav__home-logo" uk-icon="code"></i>
+              til | eiji03aero
+            </a>
+            <div class="top-nav__tools">
+              <a class="top-nav__sns-icon" href="https://github.com/eiji03aero/til" uk-icon="github-alt"></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container__body">
+        <aside class="container__side"></aside>
+        <main class="container__main">
+          <div class="content"></div>
+        </main>
+      </div>
     </div>
 
     <script>

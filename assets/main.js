@@ -26,6 +26,10 @@ function navigateContent (path) {
     });
 }
 
+function navigateToHome () {
+  navigateContent("/assets/welcome.md");
+}
+
 function initializeSide (manifest) {
   var side = document.querySelector(".container__side");
   var sideItemsMarkup = manifest.posts
@@ -40,6 +44,6 @@ function initialize () {
   fetchManifest()
     .then((manifest) => {
       initializeSide(manifest);
-      navigateContent("/assets/welcome.md");
+      navigateToHome();
     });
 }
