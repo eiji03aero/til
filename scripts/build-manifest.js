@@ -4,8 +4,6 @@ const fsPromises = require("fs").promises;
 const readline = require('readline');
 
 const rootDir = path.resolve(__dirname, "../");
-const pageRootDir = "/til";
-const githubPath = "https://github.com/eiji03aero/til/blob/main";
 
 const RegExps = {
   CommentOutBegin: new RegExp("^<!--$"),
@@ -81,7 +79,8 @@ const parsePost = async (postPath) => {
     posts.push({
       title: parsed.title,
       tags: parsed.tags,
-      path: `${githubPath}/posts/${name}`,
+      path: `/posts/${name}`,
+      timestamp: Number(name.split(".")[0]),
     });
   }
 

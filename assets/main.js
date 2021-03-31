@@ -1,5 +1,11 @@
 function fetchManifest () {
-  return window.fetch("/til/assets/manifest.json");
+  return window.fetch("/assets/manifest.json")
+    .then((res) => res.json());
+}
+
+function fetchContent (path) {
+  return window.fetch(path)
+    .then((res) => res.text());
 }
 
 function renderSideItem (post) {
@@ -13,22 +19,27 @@ function renderSideItem (post) {
 }
 
 function navigateContent (path) {
-  var contentIframe = document.querySelector(".content");
-  contentIframe.src = path;
+  var contentElement = document.querySelector(".content");
+  return fetchContent(path)
+    .then((content) => {
+      contentElement.innerText = content;
+    });
 }
 
 function initializeSide (manifest) {
   var side = document.querySelector(".container__side");
-  side.innerHTML = manifest.posts.map(renderSideItem).join("");
+  var sideItemsMarkup = manifest.posts
+    .slice()
+    .sort((a,b) => b.timestamp - a.timestamp)
+    .map(renderSideItem)
+    .join("");
+  side.innerHTML = sideItemsMarkup;
 }
 
 function initialize () {
   fetchManifest()
-    .then((res) => {
-      return res.json();
-    })
     .then((manifest) => {
       initializeSide(manifest);
-      navigateContent("/til/assets/welcome.html");
+      navigateContent("/assets/welcome.md");
     });
 }
