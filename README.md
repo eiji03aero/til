@@ -3,13 +3,18 @@
 
 # Todo
 ## Current
-- [ ] add ui framework to make it look better
-  - make it responsive
-    - mobile a okay
+- [ ] improve ui
   - sidebar item
     - anchor
     - formatted timestamp
     - tags
+  - make it responsive
+    - mobile a okay
+    - sidebar
+    - content of top nav
+  - move the page template from index.html to js
+  - add type field on post
+    - summary, thoughts
 - [ ] add library to parse and format markdown files in content
 
 ## Archive

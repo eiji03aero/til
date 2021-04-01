@@ -1,10 +1,14 @@
 # next
 ## light
-- difference between stateful vs stateless in microservice arch
-  - https://searchapparchitecture.techtarget.com/tip/The-key-differences-between-stateless-and-stateful-microservices
-
 - netflix chooses java spring boot as base for backend echosystem
   - https://netflixtechblog.com/netflix-oss-and-spring-boot-coming-full-circle-4855947713a0
+
+- How jwt detects malicious modification of payooad
+
+- What composes OS?
+
+- What is filestream of node js?
+  - How does it work? (Eg. with readline library)
 
 ## heavy
 - nx
