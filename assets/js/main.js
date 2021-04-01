@@ -1,3 +1,6 @@
+import * as C from './components/index.js'
+import * as L from './layouts/index.js'
+
 function fetchManifest () {
   return window.fetch("/assets/manifest.json")
     .then((res) => res.json());
@@ -8,18 +11,8 @@ function fetchContent (path) {
     .then((res) => res.text());
 }
 
-function renderSideItem (post) {
-  return `
-    <div class="side-item">
-      <a href="#" onclick="navigateContent('${post.path}')">
-        ${post.title}
-      </a>
-    </div>
-  `;
-}
-
 function navigateContent (path) {
-  var contentElement = document.querySelector(".content");
+  var contentElement = document.querySelector(".c-content");
   return fetchContent(path)
     .then((content) => {
       contentElement.innerText = content;
@@ -31,19 +24,31 @@ function navigateToHome () {
 }
 
 function initializeSide (manifest) {
-  var side = document.querySelector(".container__side");
+  var side = document.querySelector(".c-side-menu");
   var sideItemsMarkup = manifest.posts
     .slice()
     .sort((a,b) => b.timestamp - a.timestamp)
-    .map(renderSideItem)
+    .map((post) => C.SideMenuItem({ post }))
     .join("");
   side.innerHTML = sideItemsMarkup;
 }
 
-function initialize () {
+export function initialize () {
+  var appElement = document.getElementById("app");
+  appElement.innerHTML = L.MainLayout({
+    top: C.TopNav(),
+    side: C.SideMenu(),
+    content: C.Content(),
+  });
+
   fetchManifest()
     .then((manifest) => {
       initializeSide(manifest);
       navigateToHome();
     });
 }
+
+window.app = {
+  navigateContent,
+  navigateToHome,
+};

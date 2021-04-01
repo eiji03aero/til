@@ -65,6 +65,11 @@ const parsePost = async (postPath) => {
   return parsed;
 };
 
+const parseTimestamp = (timestamp) => {
+  const p = String(timestamp).match(/.{2}/g);
+  return `${p[0]}${p[1]}-${p[2]}-${p[3]} ${p[4]}:${p[5]}:${p[6]}`;
+}
+
 (async () => {
   const postsDir = path.resolve(rootDir, "posts");
   const postFileNames = await fsPromises.readdir(postsDir)
@@ -74,13 +79,16 @@ const parsePost = async (postPath) => {
 
   for (const name of postFileNames) {
     const postPath = path.resolve(rootDir, "posts", name);
+    const timestamp = Number(name.split(".")[0]);
+
     const parsed = await parsePost(postPath);
     parsed.tags.forEach((t) => tags.add(t));
     posts.push({
       title: parsed.title,
       tags: parsed.tags,
       path: `/posts/${name}`,
-      timestamp: Number(name.split(".")[0]),
+      timestamp,
+      createdAt: parseTimestamp(timestamp),
     });
   }
 
