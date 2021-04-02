@@ -8,6 +8,7 @@ template-post () {
   cat <<-EOF
 <!--
 {
+  "type": "summary", "thoughts",
   "tags": ["grpahql"]
 }
 -->
