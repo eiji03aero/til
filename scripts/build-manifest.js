@@ -92,10 +92,10 @@ const parseTimestamp = (timestamp) => {
     });
   }
 
-  const manifestPath = path.resolve(rootDir, "assets/manifest.json");
-  const manifest = {
+  const filePath = path.resolve(rootDir, "assets/data.json");
+  const data = {
     tags: Array.from(tags),
     posts,
   };
-  await fsPromises.writeFile(manifestPath, JSON.stringify(manifest));
+  await fsPromises.writeFile(filePath, JSON.stringify(data));
 })();

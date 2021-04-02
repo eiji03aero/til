@@ -4,6 +4,19 @@
 # Todo
 ## Current
 - [ ] improve ui
+  - rename data json file
+- [ ] add library to parse and format markdown files in content
+- [ ] add application service to manage callbacks from ui
+- [ ] lookup new css features and apply them
+- [ ] try pwa kind of features
+  - manifest.json
+  - service worker
+
+## Archive
+- [x] improve ui
+  - add type field on post
+    - summary, thoughts
+  - move the page template from index.html to js
   - sidebar item
     - anchor
     - formatted timestamp
@@ -12,12 +25,6 @@
     - mobile a okay
     - sidebar
     - content of top nav
-  - move the page template from index.html to js
-  - add type field on post
-    - summary, thoughts
-- [ ] add library to parse and format markdown files in content
-
-## Archive
 - [x] add ui framework to make it look better
   - choose one:
     - has sidebar feature
