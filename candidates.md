@@ -1,7 +1,7 @@
 # next
 ## light
-- netflix chooses java spring boot as base for backend echosystem
-  - https://netflixtechblog.com/netflix-oss-and-spring-boot-coming-full-circle-4855947713a0
+- What is service discovery?
+  - look up Eureka by netflix
 
 - How jwt detects malicious modification of payooad
 

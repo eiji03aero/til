@@ -16,9 +16,9 @@ export const SideMenuItem = ({
         <span class="c-side-menu-item__tags">
           <i uk-icon="tag"></i>
           ${post.tags.map((tag, i) => `
-          <span>
-            ${tag}
-          </span>
+            <span class="c-side-menu-item__tag">
+              ${tag}
+            </span>
           `).join("")}
         </span>
       </div>

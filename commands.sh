@@ -5,10 +5,11 @@ cmd=${1:-create-post}
 root_dir=$(cd $(dirname $0); pwd)
 
 template-post () {
+  type=${1-summary}
   cat <<-EOF
 <!--
 {
-  "type": "summary", "thoughts",
+  "type": "$type",
   "tags": ["grpahql"]
 }
 -->

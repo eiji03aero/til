@@ -105,6 +105,11 @@ body * {
 .c-side-menu-item__tags > * {
   margin-right: 4px;
 }
+.c-side-menu-item__tag {
+  border: 1px solid #7a7a7a;
+  border-radius: 2px;
+  padding: 0px 2px;
+}
 .c-side-menu-item__tags svg {
   width: 16px;
   height: 16px;
