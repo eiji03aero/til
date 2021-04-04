@@ -15,7 +15,7 @@ function navigateContent (path) {
   var contentElement = document.querySelector(".c-content");
   return fetchContent(path)
     .then((content) => {
-      contentElement.innerText = content;
+      contentElement.innerHTML = marked(content);
     });
 }
 
