@@ -1,8 +1,5 @@
 # next
 ## light
-- What is service discovery?
-  - look up Eureka by netflix
-
 - How jwt detects malicious modification of payooad
 
 - What composes OS?
@@ -27,6 +24,7 @@
   - what does it stand for?
   - what role does it have in networking context?
   - what is DNS lookup?
+  - what is DNS record?
 
 - what is ESB (enterprise service buses)?
   - how is it different from other messaging bus tool?

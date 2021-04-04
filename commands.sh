@@ -33,9 +33,9 @@ if [ $cmd = 'create-post' ]; then
   template-post > "$path"
   vim "$path"
 
-elif [ $cmd = 'build-manifest' ]; then
-  node ./scripts/build-manifest.js
-  echo built manifest
+elif [ $cmd = 'build-data' ]; then
+  node ./scripts/build-data.js
+  echo built data.json
 
 else
   echo unknown command $cmd
