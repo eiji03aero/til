@@ -3,9 +3,6 @@
 
 # Todo
 ## Current
-- [ ] improve ui
-  - rename data json file
-- [ ] add library to parse and format markdown files in content
 - [ ] add application service to manage callbacks from ui
 - [ ] lookup new css features and apply them
 - [ ] try pwa kind of features
@@ -13,6 +10,8 @@
   - service worker
 
 ## Archive
+- [x] add library to parse and format markdown files in content
+  - marked
 - [x] improve ui
   - add type field on post
     - summary, thoughts
@@ -25,6 +24,7 @@
     - mobile a okay
     - sidebar
     - content of top nav
+  - rename data json file
 - [x] add ui framework to make it look better
   - choose one:
     - has sidebar feature
