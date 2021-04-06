@@ -3,6 +3,11 @@
 
 # Todo
 ## Current
+- [ ] add router functionality
+  - listen for url change, prevent default
+  - if unknown path is specified, show 404 page
+- [ ] improve top page
+  - show 5 latest articles
 - [ ] add application service to manage callbacks from ui
 - [ ] lookup new css features and apply them
 - [ ] try pwa kind of features

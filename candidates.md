@@ -1,8 +1,8 @@
 # next
 ## light
-- What is filestream of node js?
-  - How does it work? (Eg. with readline library)
 
+
+## heavy
 - How jwt detects malicious modification of payooad
   - https://cyberpolygon.com/materials/security-of-json-web-tokens-jwt/
 
@@ -12,7 +12,9 @@
   - what is DNS lookup?
   - what is DNS record?
 
-## heavy
+- What is filestream of node js?
+  - How does it work? (Eg. with readline library)
+
 - What are the components to compose OS?
   - with linux ditribution
   - what are the main components?
