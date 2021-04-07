@@ -1,5 +1,19 @@
 # next
 ## light
+- Usecase feedback for successful usage of CQRS.
+
+- What is materialized view pattern with database?
+
+- What can you do with service worker?
+
+- What is forming virtual record in db?
+  - how is it different from aggregated data?
+
+- task based ui
+  - https://cqrs.wordpress.com/documents/task-based-ui/
+
+- EagerReadDerivation
+  - https://martinfowler.com/bliki/EagerReadDerivation.html
 
 
 ## heavy
