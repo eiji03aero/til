@@ -1,9 +1,7 @@
 # next
 ## light
-- Usecase feedback for successful usage of CQRS.
+- experience feedback of using of CQRS.
   - https://itnext.io/1-year-of-event-sourcing-and-cqrs-fb9033ccd1c6
-
-- What is materialized view pattern with database?
 
 - What can you do with service worker?
 
