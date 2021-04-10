@@ -1,5 +1,10 @@
 # next
 ## light
+- what is database locking isolation?
+  - what is it
+  - what component it belongs to? (transaction? locked data?)
+  - levels of it
+
 - experience feedback of using of CQRS.
   - https://itnext.io/1-year-of-event-sourcing-and-cqrs-fb9033ccd1c6
 
