@@ -1,9 +1,20 @@
 # next
 ## light
-- what is database locking isolation?
-  - what is it
-  - what component it belongs to? (transaction? locked data?)
-  - levels of it
+- how https work?
+  - how does it work?
+  - what do server owners have to do?
+  - how can it be enabled?
+
+- what is IndexedDB?
+  - what features does it provide?
+  - broswer compatibility?
+  - what are the limitations?
+
+- what is malloc?
+  - is this a independant library? not a property of os?
+  - how does it work?
+  - what are alternatives?
+  - what are the advantage of this compared to others?
 
 - experience feedback of using of CQRS.
   - https://itnext.io/1-year-of-event-sourcing-and-cqrs-fb9033ccd1c6
