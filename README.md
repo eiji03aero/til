@@ -9,7 +9,6 @@
 - 実装, 空間/時間の計算量
 
 - find, add, delete
-  - [x] 非ソート済配列
   - [ ] ソート済配列
   - [ ] 単方向・双方向リンクリスト
   - [ ] ハッシュテーブル
@@ -30,6 +29,7 @@
 
 # Todo
 ## Current
+- [ ] fix code block breaking layout on mobile
 - [ ] add router functionality
   - listen for url change, prevent default
   - if unknown path is specified, show 404 page
@@ -75,5 +75,8 @@
   - have github pages ready
 
 # Index
+## algorithm and data structure
+- [Unsorted array](posts/20210411205657.md)
+
 ## golang
 - [Slice](posts/20210411220004.md)

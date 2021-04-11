@@ -16,6 +16,8 @@ template-post () {
 # title
 url
 
+---
+
 # Summary
 
 # Content
@@ -34,6 +36,8 @@ template-learn () {
 }
 -->
 # title
+
+---
 
 EOF
 }
