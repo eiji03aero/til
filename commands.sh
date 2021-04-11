@@ -25,12 +25,31 @@ url
 EOF
 }
 
+template-learn () {
+  cat <<-EOF
+<!--
+{
+  "type": "learn",
+  "tags": ["algorithm"]
+}
+-->
+# title
+
+EOF
+}
+
 if [ $cmd = 'create-post' ]; then
+  type="${2:-summary}"
   time=$(date '+%Y%m%d%H%M%S')
   filename="${time}.md"
   path="${root_dir}/posts/${filename}"
 
-  template-post > "$path"
+  if [ $type = "summary" ]; then
+    template-post > "$path"
+  elif [ $type = "learn" ]; then
+    template-learn > "$path"
+  fi
+
   vim "$path"
 
 elif [ $cmd = 'build-data' ]; then

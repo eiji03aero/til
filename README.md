@@ -1,6 +1,33 @@
 # TIL
 - one way to strengthen your knowledge (and jiatama)
 
+# Learn
+- https://qiita.com/ktsujino/items/9cfa31dced5a68720485
+- https://stackoverflow.com/questions/122799/what-is-the-time-complexity-of-indexing-inserting-and-removing-from-common-data
+
+## basic
+- 実装, 空間/時間の計算量
+
+- find, add, delete
+  - [x] 非ソート済配列
+  - [ ] ソート済配列
+  - [ ] 単方向・双方向リンクリスト
+  - [ ] ハッシュテーブル
+
+## backlog
+- 非平衡二分探索木に対するfind, add操作(deleteは複雑なのでパス)
+- ヒープのpush, peek, pop(bubble up, bubble down)
+- スタックとキュー
+- 関数の再起呼び出しを明示的なスタックを使って書き換える記法
+- 挿入ソート、バブルソート、クイックソート、マージソート (クイックソート・マージソートがなぜO(NlogN)時間か答えられるようにすること)
+- (追記)quickselect: 線形時間で非ソート列の中央値(もしくはk番目に大きい要素)が求まる
+- ナイーブな文字列検索
+- ナイーブなtrie
+- バイナリサーチ
+- グラフのDFS/BFS
+- ダイクストラ法、primのアルゴリズム (priority queueを使うと計算量オーダーが変わる)
+- 動的計画法 (文字列の編集距離を例題にするとよい)
+
 # Todo
 ## Current
 - [ ] add router functionality
