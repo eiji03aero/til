@@ -73,3 +73,7 @@
   - integrate netlify's github repository feature
 - [x] have index page
   - have github pages ready
+
+# Index
+## golang
+- [Slice](posts/20210411220004.md)
