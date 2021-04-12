@@ -16,6 +16,9 @@
   - what are alternatives?
   - what are the advantage of this compared to others?
 
+- how is golang's concept of struct composition different from class inheritance?
+  - what are the limitations/advantage of struct composition compared to class inheritance?
+
 - experience feedback of using of CQRS.
   - https://itnext.io/1-year-of-event-sourcing-and-cqrs-fb9033ccd1c6
 

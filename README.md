@@ -9,7 +9,6 @@
 - 実装, 空間/時間の計算量
 
 - find, add, delete
-  - [ ] ソート済配列
   - [ ] 単方向・双方向リンクリスト
   - [ ] ハッシュテーブル
 
@@ -77,6 +76,7 @@
 # Index
 ## algorithm and data structure
 - [Unsorted array](posts/20210411205657.md)
+- [Sorted array](posts/20210412215614.md)
 
 ## golang
 - [Slice](posts/20210411220004.md)
