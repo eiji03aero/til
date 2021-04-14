@@ -9,7 +9,6 @@
 - 実装, 空間/時間の計算量
 
 - find, add, delete
-  - [ ] 双方向リンクリスト
   - [ ] ハッシュテーブル
 
 ## backlog
@@ -78,6 +77,7 @@
 - [Unsorted array](posts/20210411205657.md)
 - [Sorted array](posts/20210412215614.md)
 - [Singly linked list](posts/20210413073052.md)
+- [Doubly linked list](posts/20210414203145.md)
 
 ## golang
 - [Slice](posts/20210411220004.md)
