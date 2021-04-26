@@ -1,5 +1,12 @@
 # next
 ## light
+- what exactly is DNS?
+  - https://www.cloudflare.com/learning/dns/what-is-dns/
+  - what does it stand for?
+  - what role does it have in networking context?
+  - what is DNS lookup?
+  - what is DNS record?
+
 - how https work?
   - how does it work?
   - what do server owners have to do?
@@ -39,12 +46,6 @@
 ## heavy
 - How jwt detects malicious modification of payooad
   - https://cyberpolygon.com/materials/security-of-json-web-tokens-jwt/
-
-- what exactly is DNS?
-  - what does it stand for?
-  - what role does it have in networking context?
-  - what is DNS lookup?
-  - what is DNS record?
 
 - What is filestream of node js?
   - How does it work? (Eg. with readline library)
