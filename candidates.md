@@ -1,5 +1,8 @@
 # next
 ## light
+- what is log arithmatic?
+  - sei-no-heihoukon toha chigaunka?
+
 - what exactly is DNS?
   - https://www.cloudflare.com/learning/dns/what-is-dns/
   - what does it stand for?

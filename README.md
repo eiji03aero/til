@@ -6,14 +6,9 @@
 - https://stackoverflow.com/questions/122799/what-is-the-time-complexity-of-indexing-inserting-and-removing-from-common-data
 
 ## basic
-- 実装, 空間/時間の計算量
-
-- find, add, delete
-  - [ ] ハッシュテーブル
 
 ## backlog
 - 非平衡二分探索木に対するfind, add操作(deleteは複雑なのでパス)
-- ヒープのpush, peek, pop(bubble up, bubble down)
 - スタックとキュー
 - 関数の再起呼び出しを明示的なスタックを使って書き換える記法
 - 挿入ソート、バブルソート、クイックソート、マージソート (クイックソート・マージソートがなぜO(NlogN)時間か答えられるようにすること)
@@ -78,6 +73,8 @@
 - [Sorted array](posts/20210412215614.md)
 - [Singly linked list](posts/20210413073052.md)
 - [Doubly linked list](posts/20210414203145.md)
+- [Hash table](posts/20210415072244.md)
+- [Heap](posts/20210427202939.md)
 
 ## golang
 - [Slice](posts/20210411220004.md)
