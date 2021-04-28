@@ -8,7 +8,6 @@
 ## basic
 
 ## backlog
-- 非平衡二分探索木に対するfind, add操作(deleteは複雑なのでパス)
 - スタックとキュー
 - 関数の再起呼び出しを明示的なスタックを使って書き換える記法
 - 挿入ソート、バブルソート、クイックソート、マージソート (クイックソート・マージソートがなぜO(NlogN)時間か答えられるようにすること)
@@ -75,6 +74,7 @@
 - [Doubly linked list](posts/20210414203145.md)
 - [Hash table](posts/20210415072244.md)
 - [Heap](posts/20210427202939.md)
+- [Binary tree](posts/20210428221836.md)
 
 ## golang
 - [Slice](posts/20210411220004.md)
