@@ -3,8 +3,7 @@
 - inspect if golang has tail call optimization for recursive method
   - find a way to inspect call stack
 
-- what is log arithmatic?
-  - sei-no-heihoukon toha chigaunka?
+- what is real number?
 
 - what exactly is DNS?
   - https://www.cloudflare.com/learning/dns/what-is-dns/
