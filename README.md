@@ -8,8 +8,6 @@
 ## basic
 
 ## backlog
-- スタックとキュー
-- 関数の再起呼び出しを明示的なスタックを使って書き換える記法
 - 挿入ソート、バブルソート、クイックソート、マージソート (クイックソート・マージソートがなぜO(NlogN)時間か答えられるようにすること)
 - (追記)quickselect: 線形時間で非ソート列の中央値(もしくはk番目に大きい要素)が求まる
 - ナイーブな文字列検索
@@ -75,6 +73,7 @@
 - [Hash table](posts/20210415072244.md)
 - [Heap](posts/20210427202939.md)
 - [Binary tree](posts/20210428221836.md)
+- [Rewrite recursive function with stack data structure](posts/20210429152415.md)
 
 ## golang
 - [Slice](posts/20210411220004.md)
