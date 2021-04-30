@@ -75,6 +75,10 @@
 - [Binary tree](posts/20210428221836.md)
 - [Rewrite recursive function with stack data structure](posts/20210429152415.md)
 
+## math
+- [Logarithmic](posts/20210429170314.md)
+- [Types of numbers](posts/20210429205227.md)
+
 ## golang
 - [Slice](posts/20210411220004.md)
 - [Pointer](posts/20210413075312.md)
