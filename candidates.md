@@ -1,5 +1,4 @@
 # next
-## light
 - inspect if golang has tail call optimization for recursive method
   - find a way to inspect call stack
 
