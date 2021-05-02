@@ -8,7 +8,8 @@
 ## basic
 
 ## backlog
-- 挿入ソート、バブルソート、クイックソート、マージソート (クイックソート・マージソートがなぜO(NlogN)時間か答えられるようにすること)
+- クイックソート
+- マージソート (クイックソート・マージソートがなぜO(NlogN)時間か答えられるようにすること)
 - (追記)quickselect: 線形時間で非ソート列の中央値(もしくはk番目に大きい要素)が求まる
 - ナイーブな文字列検索
 - ナイーブなtrie
@@ -74,6 +75,9 @@
 - [Heap](posts/20210427202939.md)
 - [Binary tree](posts/20210428221836.md)
 - [Rewrite recursive function with stack data structure](posts/20210429152415.md)
+
+### sort
+- [Insertion sort](posts/20210430132322.md)
 
 ## math
 - [Logarithmic](posts/20210429170314.md)
