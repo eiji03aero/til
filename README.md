@@ -8,7 +8,7 @@
 ## basic
 
 ## backlog
-- ヒープソート;
+- マージソート;
 - (追記)quickselect: 線形時間で非ソート列の中央値(もしくはk番目に大きい要素)が求まる
 - ナイーブな文字列検索
 - ナイーブなtrie
@@ -77,6 +77,9 @@
 
 ### sort
 - [Insertion sort](posts/20210430132322.md)
+- [Bubble sort](posts/20210502142515.md)
+- [Heap sort](posts/20210502152513.md)
+- [Quick sort](posts/20210503163050.md)
 
 ## math
 - [Logarithmic](posts/20210429170314.md)
