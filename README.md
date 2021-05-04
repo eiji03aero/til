@@ -8,7 +8,6 @@
 ## basic
 
 ## backlog
-- ナイーブな文字列検索
 - ナイーブなtrie
 - バイナリサーチ
 - グラフのDFS/BFS
