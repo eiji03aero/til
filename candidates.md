@@ -2,6 +2,13 @@
 - inspect if golang has tail call optimization for recursive method
   - find a way to inspect call stack
 
+- what exactly does golang iterate through when range over string?
+  - is it byte type?
+  - what exactly is rune type?
+  - what happens if string contians mutli bytes character?
+  - when ranged over => rune?
+  - when index-accessed => byte?
+
 - what exactly is DNS?
   - https://www.cloudflare.com/learning/dns/what-is-dns/
   - what does it stand for?

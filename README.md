@@ -8,11 +8,11 @@
 ## basic
 
 ## backlog
-- ナイーブなtrie
-- バイナリサーチ
 - グラフのDFS/BFS
 - ダイクストラ法、primのアルゴリズム (priority queueを使うと計算量オーダーが変わる)
 - 動的計画法 (文字列の編集距離を例題にするとよい)
+- bitの四則演算
+  - https://daeudaeu.com/arithmetic_operations/
 
 # Todo
 ## Current
@@ -71,6 +71,9 @@
 - [Heap](posts/20210427202939.md)
 - [Binary tree](posts/20210428221836.md)
 - [Rewrite recursive function with stack data structure](posts/20210429152415.md)
+- [Quick select](posts/20210504120933.md)
+- [String search](posts/20210504124724.md)
+- [Trie](posts/20210505155559.md)
 
 ### sort
 - [Insertion sort](posts/20210430132322.md)
