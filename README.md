@@ -8,8 +8,8 @@
 ## basic
 
 ## backlog
-- グラフのDFS/BFS
-- ダイクストラ法、primのアルゴリズム (priority queueを使うと計算量オーダーが変わる)
+- ダイクストラ法
+- primのアルゴリズム (priority queueを使うと計算量オーダーが変わる)
 - 動的計画法 (文字列の編集距離を例題にするとよい)
 - bitの四則演算
   - https://daeudaeu.com/arithmetic_operations/
@@ -74,6 +74,7 @@
 - [Quick select](posts/20210504120933.md)
 - [String search](posts/20210504124724.md)
 - [Trie](posts/20210505155559.md)
+- [Graph search](posts/20210508102525.md)
 
 ### sort
 - [Insertion sort](posts/20210430132322.md)
