@@ -9,7 +9,6 @@
 
 ## backlog
 - ダイクストラ法
-- primのアルゴリズム (priority queueを使うと計算量オーダーが変わる)
 - 動的計画法 (文字列の編集距離を例題にするとよい)
 - bitの四則演算
   - https://daeudaeu.com/arithmetic_operations/
