@@ -8,7 +8,6 @@
 ## basic
 
 ## backlog
-- 動的計画法 (文字列の編集距離を例題にするとよい)
 - bitの四則演算
   - https://daeudaeu.com/arithmetic_operations/
 
@@ -73,7 +72,8 @@
 - [String search](posts/20210504124724.md)
 - [Trie](posts/20210505155559.md)
 - [Graph search](posts/20210508102525.md)
-- [Graph search](posts/20210508170817.md)
+- [Dijkstra's shortest path](posts/20210508170817.md)
+- [Dynamic programming](posts/20210509154242.md)
 
 ### sort
 - [Insertion sort](posts/20210430132322.md)

@@ -2,6 +2,7 @@
 - what exactly is process and thread?
   - is thread property of process?
   - is cpu usage of thread belongs to process's?
+
 - inspect if golang has tail call optimization for recursive method
   - find a way to inspect call stack
 
