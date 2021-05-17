@@ -90,6 +90,9 @@
 - [Slice](posts/20210411220004.md)
 - [Pointer](posts/20210413075312.md)
 
+## Database
+- [Types of relationships in RDBMS](posts/20210516212751.md)
+
 # Reference
 ## Frontend (js)
 ### Performance

@@ -1,4 +1,12 @@
 # next
+- what exactly is varchar type in postgresql?
+  - is the given number to varchar directive limits the length of characters in byte length?
+  - what happens if the length exceeds limit?
+
+- what are the types of database normalization?
+  - what are the definitions of them?
+  - why you should avoid making row to have multiple factors which uniquely identify them?
+
 - what exactly is process and thread?
   - is thread property of process?
   - is cpu usage of thread belongs to process's?
