@@ -99,7 +99,7 @@
 - [DynamoDB scribbles](posts/20210721211135.md)
 
 ## Typescript
-- [Scribbles](posts/20210704125327.md)
+- [Scribbles](posts/20210825201824.md)
 
 ## React
 - [Scribbles](posts/20210606161250.md)
