@@ -1,4 +1,19 @@
+# todo before changing job
+- learn more of html markups
+  - take famous web services as example
+
 # next
+- what are dto and dao?
+  - https://techacademy.jp/magazine/19443
+
+- what is Aggravated average?
+  - http://www.pref.kyoto.jp/tokei/monthly/tokeikyoto/tk2012/tkroom201211.pdf
+
+- what are famous hash functions?
+  - take couple of them, and google them on:
+    - abstract explanation of algorithm
+    - pros cons
+
 - what exactly is varchar type in postgresql?
   - is the given number to varchar directive limits the length of characters in byte length?
   - what happens if the length exceeds limit?

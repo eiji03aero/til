@@ -89,11 +89,30 @@
 ## golang
 - [Slice](posts/20210411220004.md)
 - [Pointer](posts/20210413075312.md)
+- [Scribbles](posts/20210624082628.md)
 
 ## Database
+- [RDBMS scribbles](posts/20210721231201.md)
 - [Types of relationships in RDBMS](posts/20210516212751.md)
 
+## AWS
+- [DynamoDB scribbles](posts/20210721211135.md)
+
+## Typescript
+- [Scribbles](posts/20210704125327.md)
+
+## React
+- [Scribbles](posts/20210606161250.md)
+
+## Angular
+- [Scribbles](posts/20210704145033.md)
+
 # Reference
+
 ## Frontend (js)
+### Bundler
+- [Bundler scribbles](posts/20210809112650.md)
+
 ### Performance
+- [Core Web Vitals](posts/20210808160339.md)
 - https://dwango-js.github.io/performance-handbook/
