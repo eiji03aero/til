@@ -42,6 +42,36 @@ template-learn () {
 EOF
 }
 
+template-reading-note () {
+  cat <<-EOF
+<!--
+{
+  "type": "reading-note",
+  "tags": ["DDD"]
+}
+-->
+# title
+
+---
+
+EOF
+}
+
+template-thoughts () {
+  cat <<-EOF
+<!--
+{
+  "type": "thoughts",
+  "tags": ["Development approach"]
+}
+-->
+# title
+
+---
+
+EOF
+}
+
 if [ $cmd = 'create-post' ]; then
   type="${2:-summary}"
   time=$(date '+%Y%m%d%H%M%S')
@@ -52,6 +82,10 @@ if [ $cmd = 'create-post' ]; then
     template-post > "$path"
   elif [ $type = "learn" ]; then
     template-learn > "$path"
+  elif [ $type = "reading-note" ]; then
+    template-reading-note > "$path"
+  elif [ $type = "thoughts" ]; then
+    template-thoughts > "$path"
   fi
 
   vim "$path"
