@@ -8,9 +8,11 @@
 
 # Tasks for the web page
 ## Current
+- [ ] show README article index as top page
 - [ ] fix code block breaking layout on mobile
 - [ ] add router functionality
   - listen for url change, prevent default
+  - replaceState to reflect page url
   - if unknown path is specified, show 404 page
 - [ ] improve top page
   - show 5 latest articles
