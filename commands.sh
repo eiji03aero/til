@@ -72,7 +72,7 @@ template-thoughts () {
 EOF
 }
 
-if [ $cmd = 'create-post' ]; then
+if [ $cmd = 'create-post' ] || [ $cmd = 'cp' ]; then
   type="${2:-summary}"
   time=$(date '+%Y%m%d%H%M%S')
   filename="${time}.md"

@@ -1,29 +1,38 @@
 import * as C from './components/index.js'
 import * as P from './pages/MainPage.js';
+import RoutesConfig from './routes-config.js';
 
-function fetchData () {
-  return window.fetch("/assets/data.json")
-    .then((res) => res.json());
+async function fetchData () {
+  const res = await window.fetch("/assets/data.json")
+  return res.json();
 }
 
-function fetchContent (path) {
-  return window.fetch(path)
-    .then((res) => res.text());
+async function fetchContent (path) {
+  const res =  await window.fetch(path)
+  return res.text()
 }
 
-function navigateContent (path) {
-  var contentElement = document.querySelector(".c-content");
-  return fetchContent(path)
-    .then((content) => {
-      contentElement.innerHTML = marked(content);
-    });
+function fetchContents (paths) {
+  return Promise.all(paths.map(fetchContent))
+}
+
+async function navigateContent (path) {
+  const contentElement = document.querySelector(".c-content");
+  const maybeRouteConfig = RoutesConfig[path];
+  const filePaths = maybeRouteConfig
+    ? maybeRouteConfig.contents
+    : [path]
+
+  const contents = await fetchContents(filePaths)
+  const content = contents.join('\n');
+  contentElement.innerHTML = marked(content);
 }
 
 function navigateToHome () {
   navigateContent("/assets/welcome.md");
 }
 
-var Elements = {
+const Elements = {
   acquire (query) {
     return document.querySelector(query);
   },
@@ -47,8 +56,8 @@ function closeMenu () {
 }
 
 function initializeSide (data) {
-  var side = document.querySelector(".c-side-menu");
-  var sideItemsMarkup = data.posts
+  const side = document.querySelector(".c-side-menu");
+  const sideItemsMarkup = data.posts
     .slice()
     .sort((a,b) => b.timestamp - a.timestamp)
     .map((post) => C.SideMenuItem({ post }))
@@ -56,15 +65,13 @@ function initializeSide (data) {
   side.innerHTML = sideItemsMarkup;
 }
 
-export function initialize () {
-  var appElement = document.getElementById("app");
+export async function initialize () {
+  const appElement = document.getElementById("app");
   appElement.innerHTML = P.MainPage();
 
-  fetchData()
-    .then((data) => {
-      initializeSide(data);
-      navigateToHome();
-    });
+  const data = await fetchData()
+  initializeSide(data);
+  navigateToHome();
 }
 
 window.app = {
