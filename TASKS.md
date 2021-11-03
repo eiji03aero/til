@@ -140,6 +140,8 @@
 
 # Tasks for the web page
 ## Backlog
+- [ ] refine markup styling
+  - h1, h2 should have underline
 - [ ] add router functionality
   - listen for url change, prevent default
   - replaceState to reflect page url
