@@ -1,0 +1,39 @@
+.c-top-nav {
+  background: linear-gradient(to right, var(--pallete-blue-base), var(--pallete-blue-light1));
+}
+.c-top-nav__content {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+.c-top-nav__menu-link {
+  display: none;
+  margin-right: 16px;
+}
+.c-top-nav__home-link {
+  display: flex;
+  align-items: center;
+  color: var(--pallete-gs-white);
+}
+.c-top-nav__home-logo {
+  margin-right: 16px;
+}
+.c-top-nav__home-logo svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--pallete-gs-white);
+}
+.c-top-nav__tools {
+  margin-left: auto;
+}
+.c-top-nav__icon-link svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--pallete-gs-white);
+}
+
+@media only screen and (max-width: 768px) {
+  .c-top-nav__menu-link {
+    display: block;
+  }
+}

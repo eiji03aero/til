@@ -1,6 +1,12 @@
 # Tasks for article to write
 
+## Roadmap
+- Finish working on audio scraper
+- Finish reading and summarizing the 'Implementing DDD' book
+
 ## Backlog
+- Proceed with golang scribbles
+
 - https://qiita.com/ktsujino/items/9cfa31dced5a68720485
 
 - https://stackoverflow.com/questions/122799/what-is-the-time-complexity-of-indexing-inserting-and-removing-from-common-data
@@ -138,10 +144,10 @@
   - integrate netlify's github repository feature
 - [x] have index page
 
+---
+
 # Tasks for the web page
 ## Backlog
-- [ ] refine markup styling
-  - h1, h2 should have underline
 - [ ] add router functionality
   - listen for url change, prevent default
   - replaceState to reflect page url
@@ -156,6 +162,7 @@
   - have github pages ready
 
 ## Archive
+- [x] refine markup styling
 - [x] fix code block breaking layout on mobile
 - [x] show README article index as top page
 - [x] marked breaks throwing marked is not a function

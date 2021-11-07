@@ -1,0 +1,42 @@
+.l-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.l-main__top {
+
+}
+.l-main__body {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+.l-main__side {
+  flex-shrink: 0;
+  width: 320px;
+  height: 100%;
+  background: #ffffff;
+}
+.l-main__content {
+  flex: 1;
+  min-width: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .l-main__side {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 80vw;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: transform 250ms;
+    z-index: 1;
+  }
+  .l-main__side--open {
+    transform: translateX(0);
+  }
+}

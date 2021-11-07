@@ -1,0 +1,12 @@
+.c-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--dark-transparent-32);
+}
+.c-overlay--open {
+  display: block;
+}
