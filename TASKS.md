@@ -7,6 +7,9 @@
 ## Backlog
 - Proceed with golang scribbles
 
+- learn react reconciler
+  - got good example: https://github.com/inokawa/react-reconciler-practice
+
 - https://qiita.com/ktsujino/items/9cfa31dced5a68720485
 
 - https://stackoverflow.com/questions/122799/what-is-the-time-complexity-of-indexing-inserting-and-removing-from-common-data
@@ -148,6 +151,9 @@
 
 # Tasks for the web page
 ## Backlog
+- [ ] fix mobile view
+  - it seems to be the content not fitting
+- [ ] on mobile, close sidebar when one selected
 - [ ] add router functionality
   - listen for url change, prevent default
   - replaceState to reflect page url
