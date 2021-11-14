@@ -33,6 +33,7 @@
 ## Languages
 
 ### golang
+- [Golang learning note](posts/20211111082224.md)
 - [Slice](posts/20210411220004.md)
 - [Pointer](posts/20210413075312.md)
 - [Scribbles](posts/20210624082628.md)
