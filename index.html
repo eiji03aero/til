@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--
+    importmap is still pretty much
+    <script type="importmap">
+      {
+        "imports": {
+          "@emotion/css": "/assets/js/modules/emotion.mjs"
+        }
+      }
+    </script>
+    -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>til</title>
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all">
-    <!-- javascripts -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked@3.0.7/marked.min.js"></script>
   </head>
 
   <body>
     <div id="app"></div>
 
+    <script type="module" src="/assets/js/modules.mjs"></script>
     <script type="module">
-      import { initialize } from "/assets/js/main.js";
+      import { initialize } from "/assets/js/main.mjs";
       initialize();
     </script>
   </body>

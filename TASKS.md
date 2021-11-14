@@ -5,6 +5,10 @@
 - Finish reading and summarizing the 'Implementing DDD' book
 
 ## Backlog
+- types of js extensions and which are which?
+  - js
+  - cjs
+  - mjs
 - Proceed with golang scribbles
 
 - learn react reconciler
@@ -151,13 +155,29 @@
 
 # Tasks for the web page
 ## Backlog
-- [ ] fix mobile view
-  - it seems to be the content not fitting
-- [ ] on mobile, close sidebar when one selected
+- [ ] rewrite custom css with emotion
+  - see if utilizing new css features is possible
+    - css imports
+    - new rules
+    - css variables
 - [ ] add router functionality
+  - create anchor element utility
+    - accepts href
+    - returns strings of:
+      - href=given href
+      - onclick=navigation handler (event, href)
+  - navigation handler
+    - if event is modified
+      - early exit to allow browser native functionality (open in new tab)
+    - pushstate to location
+    - call path navigation handler on service
   - listen for url change, prevent default
   - replaceState to reflect page url
   - if unknown path is specified, show 404 page
+- [ ] on mobile, close sidebar when one selected
+  - should have utility to detect mobile
+- [ ] think of refactoring how posts are organized
+  - probably they are grouped by the year
 - [ ] improve top page
   - show 5 latest articles
 - [ ] add application service to manage callbacks from ui
@@ -166,8 +186,23 @@
   - manifest.json
   - service worker
   - have github pages ready
+- [ ] utilize external import map when ready
+  - still not supported
+  - if possible even load the bundled esm from cdn
 
 ## Archive
+- [x] fix icon not shown sometimes
+  - summarize what was happening
+    - seems to be error `svg is not found` error is thrown when page is hot showing data
+    - seems to be when the page loads and evaluates uikit-icons.min.js before uikit-min.js this happens
+    - introduce ordering in dependency should do
+      - solved the case!
+- [x] replace extension from .js to .mjs
+  - and learn Far.vim
+- [x] add other sns
+  - facebook
+- [x] fix mobile view
+  - it seems to be the content not fitting
 - [x] refine markup styling
 - [x] fix code block breaking layout on mobile
 - [x] show README article index as top page

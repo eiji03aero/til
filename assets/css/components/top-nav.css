@@ -26,6 +26,9 @@
 .c-top-nav__tools {
   margin-left: auto;
 }
+.c-top-nav__tools .c-top-nav__icon-link + .c-top-nav__icon-link {
+  margin-left: 8px;
+}
 .c-top-nav__icon-link svg {
   width: 24px;
   height: 24px;

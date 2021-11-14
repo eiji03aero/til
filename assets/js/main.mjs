@@ -1,6 +1,6 @@
-import * as C from './components/index.js'
-import * as P from './pages/MainPage.js';
-import RoutesConfig from './routes-config.js';
+import * as C from './components/index.mjs'
+import * as P from './pages/MainPage.mjs';
+import RoutesConfig from './routes-config.mjs';
 
 async function fetchData () {
   const res = await window.fetch("/assets/data.json")

@@ -1,5 +1,5 @@
-import * as C from '../components/index.js';
-import * as L from '../layouts/index.js';
+import * as C from '../components/index.mjs';
+import * as L from '../layouts/index.mjs';
 
 export const MainPage = () => {
   return `

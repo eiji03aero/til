@@ -12,6 +12,7 @@ export const TopNav = () => {
         </a>
         <div class="c-top-nav__tools">
           <a class="c-top-nav__icon-link" href="https://github.com/eiji03aero/til" uk-icon="github-alt"></a>
+          <a class="c-top-nav__icon-link" href="https://www.linkedin.com/in/eiji-osakabe-a3baa9125/" uk-icon="linkedin"></a>
         </div>
       </div>
     </nav>
