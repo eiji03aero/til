@@ -1,3 +1,3 @@
-const { css, cx } = window.emotion;
+const { css, cx, injectGlobal } = window.emotion;
 
-export { css, cx }
+export { css, cx, injectGlobal }

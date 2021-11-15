@@ -1,5 +1,17 @@
+import { css } from '../modules/emotion.mjs';
+
 export const SideMenu = () => {
   return `
-    <div class="c-side-menu"></div>
+    <div data-elementname="SideMenu" class="${Styles.sideMenu}"></div>
   `;
+};
+
+const Styles = {
+  sideMenu: css`
+    width: 100%;
+    height: 100%;
+    padding: 24px 16px;
+    border-right: 1px solid var(--pallete-gs-grey-light2);
+    overflow-y: scroll;
+  `,
 };

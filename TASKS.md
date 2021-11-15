@@ -18,6 +18,15 @@
 
 - https://stackoverflow.com/questions/122799/what-is-the-time-complexity-of-indexing-inserting-and-removing-from-common-data
 
+- learn docker
+  - learn docker pseudo tty
+    - what is it?
+    - what is tty in the first place?
+  - what is the difference between syntaxes for CMD and ENTRYPOINT?
+    - the array based or raw strings
+    - what are the tradeoffs?
+
+
 - bitの四則演算
   - https://daeudaeu.com/arithmetic_operations/
 
@@ -155,11 +164,9 @@
 
 # Tasks for the web page
 ## Backlog
-- [ ] rewrite custom css with emotion
-  - see if utilizing new css features is possible
-    - css imports
-    - new rules
-    - css variables
+- [ ] rewrite px with rem
+- [ ] when page opened, scroll up to the top
+- [ ] unify use of media query
 - [ ] add router functionality
   - create anchor element utility
     - accepts href
@@ -186,11 +193,17 @@
   - manifest.json
   - service worker
   - have github pages ready
+    - what is this?
 - [ ] utilize external import map when ready
-  - still not supported
-  - if possible even load the bundled esm from cdn
+  - still not supported (even by chrome)
+  - if possible even load the bundled esm from cdn, map them to the appropriate names
 
 ## Archive
+- [x] rewrite custom css with emotion
+  - see if utilizing new css features is possible
+    - css imports
+    - new rules
+    - css variables
 - [x] fix icon not shown sometimes
   - summarize what was happening
     - seems to be error `svg is not found` error is thrown when page is hot showing data
