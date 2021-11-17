@@ -35,7 +35,7 @@ export const SideMenuItem = ({ post }) => {
 const Styles = {
   container: css`
     display: block;
-    padding: 8px 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid var(--pallete-gs-grey-light1);
     background: var(--pallete-gs-white);
     cursor: pointer;
@@ -51,32 +51,32 @@ const Styles = {
     flex-direction: column;
   `,
   date: css`
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #5a5a5a;
   `,
   title: css`
-    margin-bottom: 4px;
-    font-size: 16px;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
     color: var(--pallete-blue-base);
   `,
   tags: css`
     display: flex;
     align-items: center;
     color: var(--pallete-gs-black-light2);
-    font-size: 12px;
+    font-size: 0.75rem;
 
     & > * {
-      margin-right: 4px;
+      margin-right: 0.25rem;
     }
   `,
   tag: css`
     border: 1px solid var(--pallete-gs-grey-dark1);
-    border-radius: 2px;
-    padding: 0px 2px;
+    border-radius: 0.125rem;
+    padding: 0px 0.125rem;
 
     svg {
-      width: 16px;
-      height: 16px;
+      width: 1rem;
+      height: 1rem;
     }
   `,
 };

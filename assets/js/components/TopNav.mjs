@@ -40,11 +40,11 @@ const Styles = {
   content: css`
     display: flex;
     align-items: center;
-    height: 48px;
+    height: 3rem;
   `,
   menuLink: css`
     display: none;
-    margin-right: 16px;
+    margin-right: 1rem;
 
     @media only screen and (max-width: 768px) {
       display: block;
@@ -56,11 +56,11 @@ const Styles = {
     color: var(--pallete-gs-white);
   `,
   homeLogo: css`
-    margin-right: 16px;
+    margin-right: 1rem;
 
     svg {
-      width: 24px;
-      height: 24px;
+      width: 1.5rem;
+      height: 1.5rem;
       fill: var(--pallete-gs-white);
     }
   `,
@@ -68,13 +68,13 @@ const Styles = {
     margin-left: auto;
 
     & > * + * {
-      margin-left: 8px;
+      margin-left: 0.5rem;
     }
   `,
   iconLink: css`
     svg {
-      width: 24px;
-      height: 24px;
+      width: 1.5rem;
+      height: 1.5rem;
       fill: var(--pallete-gs-white);
     }
   `,

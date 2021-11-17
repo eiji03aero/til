@@ -10,7 +10,7 @@ const Styles = {
   content: css`
     width: 100%;
     height: 100%;
-    padding: 16px;
+    padding: 1rem;
     overflow-y: scroll;
   `
 };

@@ -17,6 +17,9 @@ injectGlobal`
   }
 
   /* global styles */
+  html {
+    font-size: 16px;
+  }
   html, body, #app {
     margin: 0;
     width: 100%;
