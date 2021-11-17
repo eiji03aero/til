@@ -1,4 +1,5 @@
 import { injectGlobal } from '../modules/emotion.mjs';
+import * as SC from '../styles/constants.mjs';
 
 injectGlobal`
   /* variables */
@@ -12,8 +13,6 @@ injectGlobal`
     --pallete-blue-base: #1e87f0;
     --pallete-blue-light1: #28a5f5;
     --dark-transparent-32: rgba(0, 0, 0, 0.32);
-
-    --media-mobile-and-below: only screen and (max-width: 768px);
   }
 
   /* global styles */

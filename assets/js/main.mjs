@@ -27,6 +27,7 @@ async function navigateContent(path) {
   const contents = await fetchContents(filePaths);
   const content = contents.join('\n');
   Content.innerHTML = marked(content);
+  Content.scrollTop = 0;
 }
 
 function navigateToHome() {

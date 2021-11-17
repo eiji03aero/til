@@ -164,9 +164,6 @@
 
 # Tasks for the web page
 ## Backlog
-- [ ] rewrite px with rem
-- [ ] when page opened, scroll up to the top
-- [ ] unify use of media query
 - [ ] add router functionality
   - create anchor element utility
     - accepts href
@@ -199,6 +196,9 @@
   - if possible even load the bundled esm from cdn, map them to the appropriate names
 
 ## Archive
+- [x] unify use of media query
+- [x] when page opened, scroll up to the top
+- [x] rewrite px with rem
 - [x] rewrite custom css with emotion
   - see if utilizing new css features is possible
     - css imports

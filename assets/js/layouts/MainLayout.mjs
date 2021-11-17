@@ -1,4 +1,5 @@
 import { css } from '../modules/emotion.mjs';
+import * as SC from '../styles/constants.mjs';
 
 export const MainLayout = ({ top, side, content }) => {
   return `
@@ -37,7 +38,7 @@ const Styles = {
     height: 100%;
     background: #ffffff;
 
-    @media only screen and (max-width: 768px) {
+    ${SC.MediaQueries.MobileAndBelow} {
       position: fixed;
       top: 0;
       bottom: 0;
@@ -50,7 +51,7 @@ const Styles = {
     }
   `,
   sideOpen: css`
-    @media only screen and (max-width: 768px) {
+    ${SC.MediaQueries.MobileAndBelow} {
       transform: translateX(0);
     }
   `,
@@ -61,3 +62,4 @@ const Styles = {
 };
 
 MainLayout.Styles = Styles;
+console.log(SC.MediaQueries.MobileAndBelow)

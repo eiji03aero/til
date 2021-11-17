@@ -1,4 +1,5 @@
 import { css, cx } from '../modules/emotion.mjs';
+import * as SC from '../styles/constants.mjs';
 
 export const TopNav = () => {
   return `
@@ -46,7 +47,7 @@ const Styles = {
     display: none;
     margin-right: 1rem;
 
-    @media only screen and (max-width: 768px) {
+    ${SC.MediaQueries.MobileAndBelow} {
       display: block;
     }
   `,
