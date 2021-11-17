@@ -62,10 +62,10 @@ function openMenu() {
 }
 
 function closeMenu() {
-  const { Overlay, layoutSide } = Elements;
+  const { Overlay, MainLayoutSide } = Elements;
   Overlay.classList.remove(C.Overlay.Styles.open);
   Overlay.onclick = null;
-  layoutSide.classList.remove(L.MainLayout.Styles.sideOpen);
+  MainLayoutSide.classList.remove(L.MainLayout.Styles.sideOpen);
 }
 
 function initializeSide(data) {

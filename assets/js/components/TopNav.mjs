@@ -47,9 +47,7 @@ const Styles = {
     margin-right: 16px;
 
     @media only screen and (max-width: 768px) {
-      .c-top-nav__menu-link {
-        display: block;
-      }
+      display: block;
     }
   `,
   homeLink: css`

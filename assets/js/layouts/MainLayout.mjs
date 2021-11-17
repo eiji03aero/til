@@ -38,24 +38,20 @@ const Styles = {
     background: #ffffff;
 
     @media only screen and (max-width: 768px) {
-      .l-main__side {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        max-width: 80vw;
-        height: 100%;
-        transform: translateX(-100%);
-        transition: transform 250ms;
-        z-index: 1;
-      }
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      max-width: 80vw;
+      height: 100%;
+      transform: translateX(-100%);
+      transition: transform 250ms;
+      z-index: 1;
     }
   `,
   sideOpen: css`
     @media only screen and (max-width: 768px) {
-      .l-main__side--open {
-        transform: translateX(0);
-      }
+      transform: translateX(0);
     }
   `,
   content: css`
