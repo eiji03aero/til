@@ -8,8 +8,8 @@ export const SideMenuItem = ({ post }) => {
       href="#"
       onclick="app.navigateContent('${post.path}')"
     >
-      <div class="">
-        <span class="${Styles.content}">
+      <div class="${Styles.content}">
+        <span class="${Styles.date}">
           ${post.createdAt}
         </span>
         <span class="${Styles.title}">
