@@ -70,6 +70,11 @@
 
 ---
 
+## Misc
+- [Fucking gotchas](posts/20211102081907.md)
+
+---
+
 # Reference
 
 ## Frontend (js)
