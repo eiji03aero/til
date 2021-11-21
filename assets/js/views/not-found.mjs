@@ -20,6 +20,7 @@ const Styles = {
     margin: 0;
     border: none;
     text-align: center;
+    color: var(--pallete-gs-black);
 
     ${SC.MediaQueries.MobileAndBelow} {
       padding: 0;
@@ -29,14 +30,14 @@ const Styles = {
     font-size: 1rem;
 
     ${SC.MediaQueries.MobileAndBelow} {
-      font-size: calc(100vw / 80);
+      font-size: calc(100vw / 65);
     }
   `,
   dwait: css`
     font-size: 0.2rem;
 
     ${SC.MediaQueries.MobileAndBelow} {
-      font-size: calc(100vw / 360);
+      font-size: calc(100vw / 320);
     }
   `,
 };

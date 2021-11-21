@@ -3,6 +3,7 @@ import { injectGlobal } from '/assets/js/modules/emotion.mjs';
 injectGlobal`
   /* variables */
   :root {
+    --pallete-gs-black: #000000;
     --pallete-gs-black-light2: #5a5a5a;
     --pallete-gs-grey-dark1: #7a7a7a;
     --pallete-gs-grey-light1: #dfdfdf;

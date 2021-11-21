@@ -2,6 +2,7 @@
 ## Backlog
 - [ ] on mobile, close sidebar when one selected
   - should have utility to detect mobile
+- [ ] add loader on content
 - [ ] think of refactoring how posts are organized
   - probably they are grouped by the year
 - [ ] improve top page
@@ -23,6 +24,10 @@
   - probably it is because module script tagare processed concurrently
 
 ## Archive
+- [x] refine 404 page
+  - adjust color for visibility
+  - size for mobile (kind of small now)
+  - accept another
 - [x] add router functionality
   - [ticket](posts/20211120162031.md)
 - [x] unify use of media query

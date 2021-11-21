@@ -19,6 +19,7 @@ async function navigateContent(path) {
 
   Content.innerHTML = content;
   Content.scrollTop = 0;
+  window.history.replaceState(null, '', path);
 }
 
 async function handleNavigation(event, path) {
@@ -82,7 +83,7 @@ export async function initialize() {
   const data = await fetchData();
   initializeSide(data);
 
-  navigateContent(window.location.pathname);
+  await navigateContent(window.location.pathname);
 }
 
 window.app = {

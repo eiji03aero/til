@@ -1,3 +1,5 @@
+import * as events from '/assets/js/events.mjs';
+
 const StylesheetUrls = [
   'https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css',
 ];
@@ -51,8 +53,12 @@ function loadScripts(modules) {
   }, []);
 }
 
-const loadPromises = []
-  .concat(StylesheetUrls.map(loadStylesheetByTag))
-  .concat(loadScripts(Modules));
+document.addEventListener('DOMContentLoaded', async () => {
+  const loadPromises = []
+    .concat(StylesheetUrls.map(loadStylesheetByTag))
+    .concat(loadScripts(Modules));
 
-await Promise.all(loadPromises);
+  await Promise.all(loadPromises);
+
+  events.fireEvent(events.Events.ModulesInitialized);
+});

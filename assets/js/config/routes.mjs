@@ -7,7 +7,7 @@ const Routes = [
     path: '/assets/js/views/index.mjs',
   },
   {
-    match: '/posts/.*',
+    match: '/pages/posts/.*',
     exact: true,
     path: '/assets/js/views/posts/show.mjs',
   },

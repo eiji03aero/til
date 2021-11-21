@@ -57,6 +57,9 @@ const Styles = {
     display: flex;
     align-items: center;
     color: var(--pallete-gs-white);
+    &:visited {
+      color: var(--pallete-gs-white);
+    }
   `,
   homeLogo: css`
     margin-right: 1rem;
