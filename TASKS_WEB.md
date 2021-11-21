@@ -1,19 +1,7 @@
 # Tasks for the web page
 ## Backlog
 - [ ] add router functionality
-  - create anchor element utility
-    - accepts href
-    - returns strings of:
-      - href=given href
-      - onclick=navigation handler (event, href)
-  - navigation handler
-    - if event is modified
-      - early exit to allow browser native functionality (open in new tab)
-    - pushstate to location
-    - call path navigation handler on service
-  - listen for url change, prevent default
-  - replaceState to reflect page url
-  - if unknown path is specified, show 404 page
+  - [ticket](posts/20211120162031.md)
 - [ ] on mobile, close sidebar when one selected
   - should have utility to detect mobile
 - [ ] think of refactoring how posts are organized

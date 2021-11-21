@@ -18,7 +18,6 @@
 - [Graph search](posts/20210508102525.md)
 - [Dijkstra's shortest path](posts/20210508170817.md)
 - [Dynamic programming](posts/20210509154242.md)
-
 ### Sort
 - [Insertion sort](posts/20210430132322.md)
 - [Bubble sort](posts/20210502142515.md)
@@ -31,26 +30,22 @@
 - [Types of numbers](posts/20210429205227.md)
 
 ## Languages
-
 ### golang
 - [Golang learning note](posts/20211111082224.md)
 - [Slice](posts/20210411220004.md)
 - [Pointer](posts/20210413075312.md)
 - [Scribbles](posts/20210624082628.md)
-
 ### Typescript
 - [Scribbles](posts/20210825201824.md)
 
-## Frameworks
 
+## Frameworks
 ### React
 - [Scribbles](posts/20210606161250.md)
-
 ### Angular
 - [Scribbles](posts/20210704145033.md)
 
 ## Middlewares
-
 ### Database
 - [RDBMS scribbles](posts/20210721231201.md)
 - [Types of relationships in RDBMS](posts/20210516212751.md)
@@ -58,7 +53,6 @@
 ---
 
 ## Cloud platform
-
 ### AWS
 - [DynamoDB scribbles](posts/20210721211135.md)
 
@@ -72,6 +66,7 @@
 
 ## Misc
 - [Fucking gotchas](posts/20211102081907.md)
+- [Damned apple script](posts/20211121075051.md)
 
 ---
 
