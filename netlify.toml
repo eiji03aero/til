@@ -1,0 +1,5 @@
+# Redirect all the unknown path to the root index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
