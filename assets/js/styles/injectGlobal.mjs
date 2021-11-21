@@ -1,5 +1,4 @@
-import { injectGlobal } from '../modules/emotion.mjs';
-import * as SC from '../styles/constants.mjs';
+import { injectGlobal } from '/assets/js/modules/emotion.mjs';
 
 injectGlobal`
   /* variables */

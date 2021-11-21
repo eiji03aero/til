@@ -1,5 +1,6 @@
-import { css, cx } from '../modules/emotion.mjs';
-import * as SC from '../styles/constants.mjs';
+import { css, cx } from '/assets/js/modules/emotion.mjs';
+import * as SC from '/assets/js/styles/constants.mjs';
+import * as utils from '/assets/js/utils/index.mjs';
 
 export const TopNav = () => {
   return `
@@ -13,10 +14,11 @@ export const TopNav = () => {
           <i uk-icon="menu"></i>
         </a>
 
-        <a class="${Styles.homeLink}" href="#" onclick="app.navigateToHome()">
+        <a class="${Styles.homeLink}" ${utils.buildLinkAttributes('/')}>
           <i class="${Styles.homeLogo}" uk-icon="uikit"></i>
           til | eiji03aero
         </a>
+
         <div class="${Styles.tools}">
           <a class="${
             Styles.iconLink

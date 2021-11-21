@@ -1,7 +1,5 @@
 # Tasks for the web page
 ## Backlog
-- [ ] add router functionality
-  - [ticket](posts/20211120162031.md)
 - [ ] on mobile, close sidebar when one selected
   - should have utility to detect mobile
 - [ ] think of refactoring how posts are organized
@@ -21,8 +19,12 @@
 - [ ] implement search page
 - [ ] implement lazy load on side menu bar
 - [ ] implement updated at for article
+- [ ] investigate emotion not loaded before page rendering
+  - probably it is because module script tagare processed concurrently
 
 ## Archive
+- [x] add router functionality
+  - [ticket](posts/20211120162031.md)
 - [x] unify use of media query
 - [x] when page opened, scroll up to the top
 - [x] rewrite px with rem

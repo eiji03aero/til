@@ -1,4 +1,4 @@
-import { css } from '../modules/emotion.mjs';
+import { css } from '/assets/js/modules/emotion.mjs';
 
 export const Content = () => {
   return `
@@ -12,5 +12,5 @@ const Styles = {
     height: 100%;
     padding: 1rem;
     overflow-y: scroll;
-  `
+  `,
 };

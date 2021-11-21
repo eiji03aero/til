@@ -1,7 +1,8 @@
-import * as C from './components/index.mjs';
-import * as L from './layouts/index.mjs';
-import * as P from './pages/MainPage.mjs';
-import RoutesConfig from './config/routes.mjs';
+import { getRoute } from '/assets/js/config/routes.mjs';
+
+import * as C from '/assets/js/components/index.mjs';
+import * as L from '/assets/js/layouts/index.mjs';
+import * as P from '/assets/js/pages/index.mjs';
 
 import './styles/injectGlobal.mjs';
 
@@ -10,28 +11,23 @@ async function fetchData() {
   return res.json();
 }
 
-async function fetchContent(path) {
-  const res = await window.fetch(path);
-  return res.text();
-}
-
-function fetchContents(paths) {
-  return Promise.all(paths.map(fetchContent));
-}
-
 async function navigateContent(path) {
   const { Content } = Elements;
-  const maybeRouteConfig = RoutesConfig[path];
-  const filePaths = maybeRouteConfig ? maybeRouteConfig.contents : [path];
+  const route = getRoute(path);
+  const routeView = await import(route.path);
+  const content = await routeView.default({ path });
 
-  const contents = await fetchContents(filePaths);
-  const content = contents.join('\n');
-  Content.innerHTML = marked(content);
+  Content.innerHTML = content;
   Content.scrollTop = 0;
 }
 
-function navigateToHome() {
-  navigateContent('/assets/welcome.md');
+async function handleNavigation(event, path) {
+  if (event.shiftKey || event.ctrlKey || event.metaKey) {
+    return;
+  }
+
+  event.preventDefault();
+  navigateContent(path);
 }
 
 const Elements = {
@@ -85,12 +81,13 @@ export async function initialize() {
 
   const data = await fetchData();
   initializeSide(data);
-  navigateToHome();
+
+  navigateContent(window.location.pathname);
 }
 
 window.app = {
   navigateContent,
-  navigateToHome,
+  handleNavigation,
   openMenu,
   closeMenu,
 };

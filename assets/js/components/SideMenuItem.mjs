@@ -1,12 +1,12 @@
-import { css } from '../modules/emotion.mjs';
+import { css } from '/assets/js/modules/emotion.mjs';
+import * as utils from '/assets/js/utils/index.mjs';
 
 export const SideMenuItem = ({ post }) => {
   return `
     <a
       data-elementname="SideMenuItem"
       class="${Styles.container}"
-      href="#"
-      onclick="app.navigateContent('${post.path}')"
+      ${utils.buildLinkAttributes(post.path)}
     >
       <div class="${Styles.content}">
         <span class="${Styles.date}">

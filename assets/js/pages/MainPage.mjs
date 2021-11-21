@@ -1,7 +1,7 @@
-import * as C from '../components/index.mjs';
-import * as L from '../layouts/index.mjs';
+import * as C from '/assets/js/components/index.mjs';
+import * as L from '/assets/js/layouts/index.mjs';
 
-export const MainPage = () => {
+const MainPage = () => {
   return `
     ${L.MainLayout({
       top: C.TopNav(),
@@ -11,3 +11,5 @@ export const MainPage = () => {
     ${C.Overlay()}
   `;
 };
+
+export default MainPage;

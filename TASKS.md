@@ -5,7 +5,12 @@
   - js
   - cjs
   - mjs
+
 - Proceed with golang scribbles
+
+- summarize software engineering at google
+  - https://www.amazon.co.jp/Software-Engineering-Google-Lessons-Programming/dp/1492082791
+  - probably I should try to share it in LogStudy
 
 - learn react reconciler
   - got good example: https://github.com/inokawa/react-reconciler-practice

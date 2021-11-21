@@ -1,4 +1,4 @@
-import { css } from '../modules/emotion.mjs';
+import { css } from '/assets/js/modules/emotion.mjs';
 
 export const SideMenu = () => {
   return `
