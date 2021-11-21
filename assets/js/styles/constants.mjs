@@ -7,4 +7,7 @@ export const BreakPoints = {
 
 export const MediaQueries = {
   MobileAndBelow: `@media only screen and (max-width: ${BreakPoints.MobileMax}px)`,
+  get isMobileAndBelow() {
+    return window.innerWidth < BreakPoints.MobileMax;
+  },
 };

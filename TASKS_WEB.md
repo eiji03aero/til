@@ -1,13 +1,10 @@
 # Tasks for the web page
 ## Backlog
-- [ ] on mobile, close sidebar when one selected
-  - should have utility to detect mobile
 - [ ] add loader on content
 - [ ] think of refactoring how posts are organized
-  - probably they are grouped by the year
+  - probably they should be grouped by the year
 - [ ] improve top page
   - show 5 latest articles
-- [ ] add application service to manage callbacks from ui
 - [ ] lookup new css features and apply them
 - [ ] try pwa kind of features
   - manifest.json
@@ -18,12 +15,12 @@
   - still not supported (even by chrome)
   - if possible even load the bundled esm from cdn, map them to the appropriate names
 - [ ] implement search page
-- [ ] implement lazy load on side menu bar
+- [ ] implement lazy load for side menu items
 - [ ] implement updated at for article
-- [ ] investigate emotion not loaded before page rendering
-  - probably it is because module script tagare processed concurrently
 
 ## Archive
+- [x] on mobile, close sidebar when one selected
+  - should have utility to detect mobile
 - [x] refine 404 page
   - adjust color for visibility
   - size for mobile (kind of small now)

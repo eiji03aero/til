@@ -3,8 +3,9 @@ import { getRoute } from '/assets/js/config/routes.mjs';
 import * as C from '/assets/js/components/index.mjs';
 import * as L from '/assets/js/layouts/index.mjs';
 import * as P from '/assets/js/pages/index.mjs';
+import * as SC from '/assets/js/styles/constants.mjs';
 
-import './styles/injectGlobal.mjs';
+import '/assets/js/styles/injectGlobal.mjs';
 
 async function fetchData() {
   const res = await window.fetch('/assets/data.json');
@@ -29,6 +30,10 @@ async function handleNavigation(event, path) {
 
   event.preventDefault();
   navigateContent(path);
+
+  if (SC.MediaQueries.isMobileAndBelow) {
+    closeMenu();
+  }
 }
 
 const Elements = {
