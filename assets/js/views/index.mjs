@@ -1,3 +1,4 @@
+import marked from '/assets/js/modules/marked.mjs';
 import * as utils from '/assets/js/utils/index.mjs';
 
 const IndexView = async () => {

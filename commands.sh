@@ -72,6 +72,53 @@ template-thoughts () {
 EOF
 }
 
+template-task () {
+  cat <<-EOF
+<!--
+{
+  "type": "task",
+  "tags": ["til developmeent"]
+}
+-->
+# title
+
+---
+
+# General
+- This is for blahblah
+
+---
+
+# Problems
+- 1. blah
+
+---
+
+# Solutions
+## Draft ideas
+### 1. blah
+
+## Consideration
+
+## Conclusion
+
+---
+
+# Requirements
+## External
+- blah
+
+## Internal
+- blah
+
+---
+
+# Development plan
+- [ ] blah
+
+EOF
+}
+
 if [ $cmd = 'create-post' ] || [ $cmd = 'cp' ]; then
   type="${2:-summary}"
   time=$(date '+%Y%m%d%H%M%S')
@@ -86,6 +133,8 @@ if [ $cmd = 'create-post' ] || [ $cmd = 'cp' ]; then
     template-reading-note > "$path"
   elif [ $type = "thoughts" ]; then
     template-thoughts > "$path"
+  elif [ $type = "task" ]; then
+    template-task > "$path"
   fi
 
   vim "$path"

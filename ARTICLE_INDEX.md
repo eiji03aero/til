@@ -18,6 +18,7 @@
 - [Graph search](posts/20210508102525.md)
 - [Dijkstra's shortest path](posts/20210508170817.md)
 - [Dynamic programming](posts/20210509154242.md)
+
 ### Sort
 - [Insertion sort](posts/20210430132322.md)
 - [Bubble sort](posts/20210502142515.md)
@@ -35,6 +36,7 @@
 - [Slice](posts/20210411220004.md)
 - [Pointer](posts/20210413075312.md)
 - [Scribbles](posts/20210624082628.md)
+
 ### Typescript
 - [Scribbles](posts/20210825201824.md)
 
@@ -42,6 +44,7 @@
 ## Frameworks
 ### React
 - [Scribbles](posts/20210606161250.md)
+
 ### Angular
 - [Scribbles](posts/20210704145033.md)
 
@@ -61,6 +64,11 @@
 ## Thoughts
 - [on Last workplace 2021](posts/20211102081907.md)
 - [on Programming](posts/20211103164338.md)
+
+---
+
+## Projects
+- [Quit smoking app(name TBD)](posts/20211123083548.md)
 
 ---
 
