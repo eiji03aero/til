@@ -19,6 +19,9 @@
 
 - https://stackoverflow.com/questions/122799/what-is-the-time-complexity-of-indexing-inserting-and-removing-from-common-data
 
+- object oriented software construction
+  - `https://www.amazon.co.jp/Object-Oriented-Software-Construction-Prentice-hall-International/dp/0136291554/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=object+oriented+software+construction&qid=1637841684&s=books&sr=1-1`
+
 - learn docker
   - learn docker pseudo tty
     - what is it?
@@ -110,6 +113,9 @@
   - https://martinfowler.com/bliki/EagerReadDerivation.html
 
 ### Heavy
+- Can we check wifi router to see who exactly is connecting?
+  - wanna know if some neighbor is stealing our bandwidth
+
 - How jwt detects malicious modification of payooad
   - https://cyberpolygon.com/materials/security-of-json-web-tokens-jwt/
 
