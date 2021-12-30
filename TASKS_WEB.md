@@ -1,13 +1,24 @@
 # Tasks for the web page
 ## Backlog
 - [ ] Improve golang learning note post
-  - organize the content
-  - see if folding is available on marked
-    - want to hide the scribbles summary
+    - organize the content
+    - see if folding is available on marked
+        - want to hide the scribbles summary
+- [ ] refine sidebar
+    - add tabs
+    - one for the current articles list
+    - the other is for list of tags
+    - tags
+        - should have master tags data file
+        - each tag to have meta data
+            - name
+            - description
 - [ ] add loader on content
 - [ ] refine top page
-  - show 5 latest articles
+    - show 5 latest articles
 - [ ] implement lazy load for side menu items
+- [ ] improve generating link from md
+    - for links with relative paths starting with `posts/*`, should convert it to `/pages/posts/*` so that user can properly open the page
 
 ### Epic
 - [ ] Show link in richer way

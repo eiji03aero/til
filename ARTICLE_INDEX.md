@@ -47,12 +47,20 @@
 - [Scribbles](posts/20210825201824.md)
 
 
-## Frameworks
-### React
+## Frontend
+- [Frontend reading list](posts/20211222081736.md)
+
+### Frameworks
+#### React
 - [Scribbles](posts/20210606161250.md)
 
-### Angular
+#### Angular
 - [Scribbles](posts/20210704145033.md)
+
+
+## Server side
+- [Server side readling-list](posts/20211230083308.md)
+
 
 ## Middlewares
 ### Database
