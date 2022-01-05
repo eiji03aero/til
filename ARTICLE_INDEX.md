@@ -5,6 +5,13 @@
 
 ---
 
+## Reading list
+- [Frontend reading list](posts/20211222081736.md)
+- [Server side readling-list](posts/20211230083308.md)
+- [Software engineering readling-list](posts/20211230090628.md)
+
+---
+
 ## Development method
 ### DDD
 - [RN: Implementing Domain-Driven Design](posts/20211031184839.md)
@@ -48,18 +55,12 @@
 
 
 ## Frontend
-- [Frontend reading list](posts/20211222081736.md)
-
 ### Frameworks
 #### React
 - [Scribbles](posts/20210606161250.md)
 
 #### Angular
 - [Scribbles](posts/20210704145033.md)
-
-
-## Server side
-- [Server side readling-list](posts/20211230083308.md)
 
 
 ## Middlewares
