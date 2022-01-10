@@ -57,6 +57,8 @@
 ## Frontend
 ### Frameworks
 #### React
+- [Learning note](posts/20220107082141.md)
+- [Reading list](posts/20220108091152.md)
 - [Scribbles](posts/20210606161250.md)
 
 #### Angular
