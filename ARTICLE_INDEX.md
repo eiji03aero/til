@@ -35,8 +35,8 @@
 ### Sort
 - [Insertion sort](posts/20210430132322.md)
 - [Bubble sort](posts/20210502142515.md)
-- [Heap sort](posts/20210502152513.md)
-- [Quick sort](posts/20210503163050.md)
+- [Heap sort](posts/20210503163050.md)
+- [Quick sort](posts/20210502152513.md)
 - [Merge sort](posts/20210503171828.md)
 
 ## Math
